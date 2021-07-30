@@ -90,7 +90,15 @@
     margin-bottom: 200px;
     background-color: dodgerblue;
     width: 79%;
-    height: 1600px;
+    height: 1900px;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
 }
 
 .firstProject {
@@ -162,35 +170,16 @@
     position: relative;
 }
 
-.button-wrapper-small {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    position: relative;
-}
 
-
-.button-first {
-    border: 5px lightblue solid;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 .button:hover {
     background-blend-mode:color-burn;
     transition-duration: 1s;
 }
 
-.button-small {
-    width: 35%;
-    height: 400px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
 .button-large {
-    width: 1000px;
-    height: 800px;
+    width: 700px;
+    height: 500px;
 }
 
 .button0 {
@@ -332,6 +321,10 @@
         height: 200px;
         width: 400px;
     }
+    .work {
+        flex-direction: column;
+    }
+    
 }
 
 
