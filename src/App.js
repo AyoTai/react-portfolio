@@ -2,6 +2,7 @@ import Nav from './component/Nav';
 import Footer from './component/Footer';
 import Hero from './component/Hero';
 import Bio from './component/Bio';
+import Contact from './component/Contact';
 import './assets/css/styles.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Bio />
 
+      <Contact />
       <Footer />
     </div>
   );
