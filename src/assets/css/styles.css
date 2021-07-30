@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+/* Header and Navbar */
+.main-header {
+    background-color: dodgerblue;
+}
+
+.nav ul {
+    font-size: 20px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    padding: 4.5px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px dashed rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    color:black;
+    background-color: rgba(255, 255, 255, .3);
+    border: 1px solid black;
+}
+/* Hero IMAGE */
+.hero {
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("https://i.redd.it/4nxq9q7mk7r11.png");
+    background-size: cover;
+    background-position: bottom;
+}
+/* Header 1 */
+.myname {
+    text-align: center;
+    font-size: 4em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white
+}
+/* Bio */
+#aboutme {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    background-color: dodgerblue;
+    padding: 10px 75px;
+    width: 79%;
+}
+
+.intro {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+}
+
+.intro-p {
+    font-size: 20px;
+}
+
+.biopic {
+    width: 150px;
+    position: relative;
+    left: 350px;
+    border-radius: 50%;
+}
+/* Project section */
+#work {
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: dodgerblue;
+    width: 79%;
+    height: 1600px;
+}
+
+.firstProject {
+    position: absolute;
+    top: 155px;
+    left: 100px;
+    margin-left: auto;
+    margin-bottom: 200px;
+    width: 100%;
+}
+
+.projectButtons {
+    width: 100%;
+    height: 100%;
+}
+
+.projects {
+    top: 100px;
+    left: 50px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.projectpic {
+    position: absolute;
+    display: block;
+    border: 10px lightblue solid;
+    padding: 5px;
+    max-width: 50%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 100px;
+}
+
+.projectpic:hover {
+    background-blend-mode:luminosity;
+}
+
+.projecttext {
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: lightblue;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -50px;
+    left: -300px;
+}
+
+.button {
+    position: relative;
+    border: 5px lightblue solid;
+    text-decoration: none;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.button-wrapper-large {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.button-wrapper-small {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+.button-first {
+    border: 5px lightblue solid;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-blend-mode:color-burn;
+    transition-duration: 1s;
+}
+
+.button-small {
+    width: 35%;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.button-large {
+    width: 1000px;
+    height: 800px;
+}
+
+.button0 {
+    background-image: url(../images/home-page-screenshot.png);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.button1 {
+    background-image: url(../images/outline.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.button2 {
+    background-image: url(../images/quizpage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.button3 {
+    background-image: url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.button4 {
+    background-image: url(https://edsurge.imgix.net/uploads/post/image/12176/coding-1556754232.jpg?auto=compress%2Cformat&w=1024&h=512&fit=crop);
+    background-size: cover;
+    background-position: center;
+}
+
+.button5 {
+    background-image: url(https://s27389.pcdn.co/wp-content/uploads/2021/04/12-steps-towards-secure-project-management-framework.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.label {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    align-items: center;
+    color: white;
+}
+
+.label2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    width:50%;
+    color: white;
+}
+
+.label3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    width:50%;
+    left: 750px;
+    bottom: 35px;
+    color: white;
+}
+
+.gitimg {
+    width: 8%;
+}
+
+.gitimg2 {
+    width: 4%;
+}
+/* Contact Section */
+#contactme {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    background-color: dodgerblue;
+    padding: 10px 100px;
+    width: 79%;
+}
+
+.contact {
+    position: relative;
+    right: 10px;
+    font-size: 30px;
+}
+
+.contactlist {
+    display: inline-flex;
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    left: 200px;
+}
+
+.email {
+    width: 10%;
+}
+
+.phone {
+    width: 10%;
+}
+
+.github {
+    width: 12%;
+}
+
+.linkedin {
+    width: 10%;
+}
+
+.footer {
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    :root {
+        --size-divisor: 1;
+    } 
+    .button0 {
+        height: 200px;
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    :root {
+        --size-divisor: 1.5;
+    }
+    .button0 {
+        height: 200px;
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    :root {
+        --size-divisor: 2;
+    }
+
+}
