@@ -1,6 +1,7 @@
 import Nav from './component/Nav';
 import Footer from './component/Footer';
 import Hero from './component/Hero';
+import Bio from './component/Bio';
 import './assets/css/styles.css'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <Nav />
       <Hero />
-
+      <Bio />
 
       <Footer />
     </div>
@@ -16,3 +17,4 @@ function App() {
 }
 
 export default App;
+
