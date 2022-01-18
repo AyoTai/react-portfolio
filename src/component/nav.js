@@ -8,7 +8,7 @@ function Nav() {
                     <li><a href="#aboutme">About Me</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#contactme">Contact Me</a></li>
-                    <li><a href="./resume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="./FullStack-Resume.pdf" target="_blank">Resume</a></li>
                 </ul>
             </nav>
             <h1 className="myname">Tai Mujarin</h1>
